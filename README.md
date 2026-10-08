@@ -14,11 +14,12 @@ This repository hosts the official DROIDEX downloads for macOS.
 3. In the DMG, double-click **Open Privacy & Security**.
 4. Find the DROIDEX notice, click **Open Anyway**, and confirm.
 
-DROIDEX is currently **ad-hoc signed and not notarized**. This keeps distribution
-free of a paid Apple Developer membership, but requires manual approval on first
-launch. Confirm **Open** and authenticate if macOS asks. Do not disable
-Gatekeeper. Published releases are immutable and include `SHA256SUMS` for
-download verification.
+DROIDEX is **self-signed and not notarized**. Every release is signed with the
+same DROIDEX certificate, so macOS keeps permissions such as microphone access
+across updates. This keeps distribution free of a paid Apple Developer
+membership, but requires manual approval on first launch. Confirm **Open** and
+authenticate if macOS asks. Do not disable Gatekeeper. Published releases are
+immutable and include `SHA256SUMS` for download verification.
 
 ## Updates
 
